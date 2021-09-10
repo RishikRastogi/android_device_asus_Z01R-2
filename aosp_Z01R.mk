@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, device/asus/Z01R/device.mk)
 
 # Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+#$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 EVO_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -31,7 +31,7 @@ PRODUCT_BRAND := Asus
 PRODUCT_DEVICE := Z01R
 PRODUCT_MANUFACTURER := Asus
 PRODUCT_MODEL := Zenfone 5Z
-PRODUCT_NAME := evolution_Z01R
+PRODUCT_NAME := aosp_Z01R
 WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
